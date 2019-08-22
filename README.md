@@ -10,7 +10,7 @@ Problems:
 
 112: [Path Sum](https://leetcode.com/problems/path-sum) (Easy)
 
-113: [Path Sum II](https://leetcode.com/problems/path-sum-ii)) (Medium)
+113: [Path Sum II](https://leetcode.com/problems/path-sum-ii) (Medium)
 
 150: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) (Medium)
 
