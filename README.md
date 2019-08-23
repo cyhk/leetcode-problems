@@ -1,6 +1,6 @@
-# A collection of solved leetcode problems
+# A collection of solved problems
 
-Problems:
+## Leetcode:
 
 1: [Two Sum](https://leetcode.com/problems/two-sum) (Easy)
 
