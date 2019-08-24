@@ -51,28 +51,24 @@ var longestUnivaluePath = function (root) {
 
   function _longestUnivalueHelper(root) {
     if (!root) return 0;
-
-    let pathLeft = 0;
-    let pathRight = 0;
-    let pathBoth = 0;
+    
+    let havePathLeft = 0;
+    let havePathRight = 0;
+    let pathLeft = _longestUnivalueHelper(root.left);
+    let pathRight = _longestUnivalueHelper(root.right);
 
     if (root.left && root.val === root.left.val) {
-      pathLeft = 1 + _longestUnivalueHelper(root.left);
+      havePathLeft = pathLeft + 1;
     }
 
     if (root.right && root.val === root.right.val) {
-      pathRight = 1 + _longestUnivalueHelper(root.right);
+      havePathRight = pathRight + 1;
     }
 
-    if (root.right && root.left &&
-      root.val === root.right.val && root.left.val === root.right.val) {
-      pathBoth = 2 + _longestUnivalueHelper(root.left) + 
-      _longestUnivalueHelper(root.right);
-    }
-
-    sum = Math.max(sum, pathBoth);
-    return Math.max(pathLeft, pathRight);
+    sum = Math.max(sum, havePathRight + havePathLeft);
+    return Math.max(havePathLeft, havePathRight);
   }
-
-  return Math.max(sum, _longestUnivalueHelper(root));
+  
+  _longestUnivalueHelper(root)
+  return sum;
 };
