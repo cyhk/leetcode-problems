@@ -26,6 +26,6 @@
 
 848: [Shifting Letters](https://leetcode.com/problems/shifting-letters/) (Medium)
 
-998: [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)
+998: [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) (Medium)
 
 1046: [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (Easy)
