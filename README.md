@@ -14,6 +14,10 @@
 
 113: [Path Sum II](https://leetcode.com/problems/path-sum-ii) (Medium)
 
+124: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (Hard)
+
+129: [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) (Medium)
+
 150: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) (Medium)
 
 151: [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
@@ -21,5 +25,7 @@
 687: [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) (Easy)
 
 848: [Shifting Letters](https://leetcode.com/problems/shifting-letters/) (Medium)
+
+998: [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/)
 
 1046: [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (Easy)
