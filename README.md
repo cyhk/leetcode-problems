@@ -24,6 +24,8 @@
 
 687: [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) (Easy)
 
+739: [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/) (Medium)
+
 848: [Shifting Letters](https://leetcode.com/problems/shifting-letters/) (Medium)
 
 998: [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) (Medium)
