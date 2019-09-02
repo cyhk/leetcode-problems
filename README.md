@@ -10,6 +10,8 @@
 
 59: [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) (Medium)
 
+66: [Plus One](https://leetcode.com/problems/plus-one/) (Easy)
+
 112: [Path Sum](https://leetcode.com/problems/path-sum) (Easy)
 
 113: [Path Sum II](https://leetcode.com/problems/path-sum-ii) (Medium)
@@ -17,6 +19,8 @@
 124: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (Hard)
 
 129: [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) (Medium)
+
+137: [Single Number II](https://leetcode.com/problems/single-number-ii/) (Medium)
 
 150: [Evaluate Reverse Polish Notation](https://leetcode.com/problems/evaluate-reverse-polish-notation) (Medium)
 
