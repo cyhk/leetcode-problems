@@ -35,3 +35,29 @@
 998: [Smallest String Starting From Leaf](https://leetcode.com/problems/smallest-string-starting-from-leaf/) (Medium)
 
 1046: [Last Stone Weight](https://leetcode.com/problems/last-stone-weight/) (Easy)
+
+## Hackerrank:
+
+**Warm Up Problems**
+
+[Sock Merchant](https://www.hackerrank.com/challenges/sock-merchant) (Easy)
+
+[Counting Valleys](https://www.hackerrank.com/challenges/counting-valleys) (Easy)
+
+[Jumping on the Clouds](https://www.hackerrank.com/challenges/jumping-on-the-clouds) (Easy)
+
+[Repeated Strings](https://www.hackerrank.com/challenges/repeated-string) (Easy)
+
+**Arrays**
+
+[2D Array - DS](https://www.hackerrank.com/challenges/2d-array) (Easy)
+
+[Left Rotation](https://www.hackerrank.com/challenges/ctci-array-left-rotation) (Easy)
+
+[New Year Chaos](https://www.hackerrank.com/challenges/new-year-chaos) (Medium)
+
+[Minimum Swaps 2](https://www.hackerrank.com/challenges/minimum-swaps-2) (Medium)
+
+**String manipulation**
+
+[Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters) (Easy)
