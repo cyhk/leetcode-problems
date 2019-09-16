@@ -16,6 +16,8 @@
 
 113: [Path Sum II](https://leetcode.com/problems/path-sum-ii) (Medium)
 
+121: [Best Time To Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) (Easy)
+
 124: [Binary Tree Maximum Path Sum](https://leetcode.com/problems/binary-tree-maximum-path-sum/) (Hard)
 
 129: [Sum Root to Leaf Numbers](https://leetcode.com/problems/sum-root-to-leaf-numbers/) (Medium)
