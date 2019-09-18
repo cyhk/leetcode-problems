@@ -63,3 +63,7 @@
 **String manipulation**
 
 [Alternating Characters](https://www.hackerrank.com/challenges/alternating-characters) (Easy)
+
+**Dictionary and Hashtables**
+
+[Ransom Note](https://www.hackerrank.com/challenges/ctci-ransom-note/problem) (Easy)
