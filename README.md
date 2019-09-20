@@ -28,6 +28,8 @@
 
 151: [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
 
+271: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (Easy)
+
 687: [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) (Easy)
 
 739: [Daily Temperatures](https://leetcode.com/problems/daily-temperatures/submissions/) (Medium)
