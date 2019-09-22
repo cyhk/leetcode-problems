@@ -30,8 +30,10 @@
 var hasPathSum = function (root, sum) {
   if (!root) return false;
 
+  // check if the leaf has the value we are looking for
   if (!root.left && !root.right && root.val === sum) return true;
 
+  // check if the path has the sum minus current root value
   return (hasPathSum(root.left, sum - root.val) || hasPathSum(root.right, sum - root.val));
 };
 

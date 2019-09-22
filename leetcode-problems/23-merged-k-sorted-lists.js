@@ -55,3 +55,5 @@ var mergeKLists = function (lists) {
 
   return sortedListHead;
 };
+
+// TODO: add heap solution 

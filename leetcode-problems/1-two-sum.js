@@ -29,6 +29,8 @@ var twoSum = function(nums, target) {
     }
   }
   
+  // find if target num exists, if so, check if it is the same
+  // index. If so, continue, else return the tuple
   for (let i=0; i<nums.length; i++) {
     if (numObj[target-nums[i]]) {
         let j = nums.findIndex(num => num === target-nums[i]);

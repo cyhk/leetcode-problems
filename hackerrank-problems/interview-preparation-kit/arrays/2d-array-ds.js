@@ -1,4 +1,5 @@
 function hourglassSum(arr) {
+  // helper function to calculate total from hourglass
   function _addHourglass(y, x) {
     return (
       arr[y][x] +
@@ -12,6 +13,9 @@ function hourglassSum(arr) {
   }
 
   let max = Number.MIN_SAFE_INTEGER;
+  
+  // at every position, calculate the hourglass total and
+  // compare to max, replacing max as necessary
   for (let y = 0; y < arr.length - 2; y++) {
     for (let x = 0; x < arr[y].length - 2; x++) {
       let sum = _addHourglass(y, x);

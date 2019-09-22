@@ -23,6 +23,9 @@
 var plusOne = function(digits) {
   let position = digits.length;
   
+  // add one to last digit and add the carry to
+  // the next digit to the left until there is nothing
+  // to carry over
   do {
     if (position === 0) {
       digits.unshift(1);
