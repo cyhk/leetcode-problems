@@ -50,7 +50,9 @@ var sumNumbers = function (root, path=[0]) {
   
   path.push(root.val);
   
+  // if we are at a leaf, return the number
   if (!root.left && !root.right) return Number(path.join(''));
 
+  // add the numbers at left node and right node together
   return sumNumbers(root.left, [...path]) + sumNumbers(root.right, [...path]);
 };

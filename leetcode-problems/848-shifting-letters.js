@@ -27,10 +27,12 @@
 var shiftingLetters = function (S, shifts) {
   const charArr = S.split('');
   
+  // make shifts array cumulative
   for (let i=shifts.length-2; i>=0; i--) {
     shifts[i] += shifts[i+1];
   }
   
+  // shift the characters by necessary amount
   for (let j = 0; j < shifts.length; j++) {
     let newChar = (charArr[j].charCodeAt(0)+shifts[j]- 97) % 26 + 97;
     charArr[j] = String.fromCharCode(newChar);

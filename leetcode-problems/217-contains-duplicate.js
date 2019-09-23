@@ -21,11 +21,14 @@
  * @return {boolean}
  */
 var containsDuplicate = function(nums) {
-  let numCounter = new Set();
+  let numCounter = new Set(); // using set for easy lookup
+
+  // return true once we find duplicate, or else continue
   for (const num of nums) {
     if (numCounter.has(num)) return true;
     else (numCounter.add(num));
   }
   
+  // no duplicate is found if we reach this line
   return false;
 };

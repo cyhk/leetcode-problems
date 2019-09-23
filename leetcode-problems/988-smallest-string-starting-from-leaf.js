@@ -52,12 +52,17 @@ var smallestFromLeaf = function(root, stringFromLeaf='') {
   if (!root) return stringFromLeaf;
   
   let newLetter = String.fromCharCode(root.val + 97);
+
+  // return if we are at a leaf
   if (!root.left && !root.right) return newLetter + stringFromLeaf;
   
+  // pick the lexical smallest from the left and same for right
   const left = smallestFromLeaf(root.left, newLetter + stringFromLeaf);
   const right = smallestFromLeaf(root.right, newLetter + stringFromLeaf);
   
   if (!root.left) return right;
   if (!root.right) return left;
+
+  // string compare and return lexically smaller side
   return left <= right? left : right;
 };

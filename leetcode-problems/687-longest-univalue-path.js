@@ -47,8 +47,10 @@
  * @return {number}
  */
 var longestUnivaluePath = function (root) {
+  // maintain sum outside to compare to various subtree sums
   let sum = 0;
 
+  // 
   function _longestUnivalueHelper(root) {
     if (!root) return 0;
     
@@ -57,6 +59,7 @@ var longestUnivaluePath = function (root) {
     let pathLeft = _longestUnivalueHelper(root.left);
     let pathRight = _longestUnivalueHelper(root.right);
 
+    // add to path if values are the same
     if (root.left && root.val === root.left.val) {
       havePathLeft = pathLeft + 1;
     }
@@ -65,7 +68,10 @@ var longestUnivaluePath = function (root) {
       havePathRight = pathRight + 1;
     }
 
+    // update sum to combined longest univalue path if longer
     sum = Math.max(sum, havePathRight + havePathLeft);
+
+    // return longest univalue path at subtree
     return Math.max(havePathLeft, havePathRight);
   }
   

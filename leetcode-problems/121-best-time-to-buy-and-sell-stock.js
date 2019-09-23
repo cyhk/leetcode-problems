@@ -35,6 +35,11 @@ var maxProfit = function(prices) {
   let currentDiff = 0;
   let min = prices[start];
 
+  // at each loop, until the end of the array is reached,
+  // check if the current difference gives the max profit
+  // check also if the new element is the newest minimum,
+  // if so, compare everything after to the newest minimum
+  // from now on
   while (end < prices.length) {
     currentDiff = prices[end] - prices[start];
     if (currentDiff > maxProfit) maxProfit = currentDiff;

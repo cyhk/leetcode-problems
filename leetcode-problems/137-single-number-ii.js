@@ -22,11 +22,15 @@
 var singleNumber = function(nums) {
   let frequencyCounter = makeFrequencyCounter(nums);
 
+  // if we find the value that only appear once,
+  // return it
   for (const key in frequencyCounter) {
     if (frequencyCounter[key] ===  1) return key;
   }
 };
 
+// make frequency counter to count how many
+// times each value appears
 function makeFrequencyCounter(arr) {
   let fq = {};
   for (const value of arr) {
@@ -39,7 +43,6 @@ function makeFrequencyCounter(arr) {
 var singleNumber = function(nums) {
   const uniqueSum = Array.from(new Set(nums)).reduce((acc, elem) => acc + elem*3, 0);
   const totalSum = nums.reduce((acc, elem) => acc + elem, 0);
-  console.log(uniqueSum);
-  console.log(totalSum);
+
   return (uniqueSum - totalSum)/2;
 };

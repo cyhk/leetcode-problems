@@ -35,9 +35,12 @@
 var pathSum = function(root, sum, paths=[], path='') {
   if (!root) return [];
   
+  // make path string
   if (path !== '') path += '_';
   path += root.val;
   
+  // if we are at a leaf and a valid path is found, turn the path string into
+  // an array, or else keep going
   if (!root.left && !root.right && root.val === sum) paths.push(path.split('_'));
   else {
     pathSum(root.left, sum - root.val, paths, path)

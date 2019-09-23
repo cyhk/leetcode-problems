@@ -33,13 +33,18 @@
  * @return {number}
  */
 var evalRPN = function (tokens) {
-  let wait = [];
+  let wait = []; // using array like a stack
 
   for (let i = 0; i < tokens.length; i++) {
+    // if we have numbers, just push onto the stack
     if (!isNaN(Number(tokens[i]))) {
       wait.push(Number(tokens[i]));
-    }
-    else {
+    } else {
+      // if we are in this else block, we know
+      // that we have come across an operation,
+      // so pop the two most recent values and 
+      // do the necessary operation,
+      // then push it back onto the stack
       right = wait.pop();
       left = wait.pop();
 
@@ -49,6 +54,7 @@ var evalRPN = function (tokens) {
       else if (tokens[i] === "*") result = left * right;
       else if (tokens[i] === "/") {
         result = left / right;
+        // turn the division result into a whole number
         result = result >= 0 ? Math.floor(result) : Math.ceil(result);
       }
 
@@ -56,5 +62,7 @@ var evalRPN = function (tokens) {
     }
   }
   
+  // there is only one thing left on the stack at this point,
+  // so just return it
   return wait.pop();
 }
