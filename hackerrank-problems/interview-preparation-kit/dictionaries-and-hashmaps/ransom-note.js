@@ -1,7 +1,10 @@
 function checkMagazine(magazine, note) {
+
   const magazineLetters = makeFrequencyCounter(magazine);
   const noteLetters = makeFrequencyCounter(note);
 
+  // check if the magazine has the words required
+  // for the note, and console log the result
   for (const letter in noteLetters) {
     if (magazineLetters[letter] === undefined ||
         magazineLetters[letter] < noteLetters[letter]) {
@@ -13,6 +16,7 @@ function checkMagazine(magazine, note) {
   console.log("Yes");
 }
 
+// helper function to make frequency counter
 function makeFrequencyCounter(arr) {
   const fq = {};
 
