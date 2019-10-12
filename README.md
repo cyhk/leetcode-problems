@@ -8,6 +8,8 @@
 
 36: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) (Medium)
 
+53: [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/) (Easy)
+
 59: [Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) (Medium)
 
 66: [Plus One](https://leetcode.com/problems/plus-one/) (Easy)
