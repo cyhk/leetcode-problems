@@ -30,6 +30,8 @@
 
 151: [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
 
+151: [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) (Medium)
+
 238: [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium)
 
 271: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (Easy)
