@@ -4,7 +4,11 @@
 
 1: [Two Sum](https://leetcode.com/problems/two-sum) (Easy)
 
+15: [3Sum](https://leetcode.com/problems/3sum/) (Medium)
+
 23: [Merged k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)
+
+33: [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/) (Medium)
 
 36: [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) (Medium)
 
