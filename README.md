@@ -4,6 +4,8 @@
 
 1: [Two Sum](https://leetcode.com/problems/two-sum) (Easy)
 
+11: [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) (Medium)
+
 15: [3Sum](https://leetcode.com/problems/3sum/) (Medium)
 
 23: [Merged k Sorted Lists](https://leetcode.com/problems/merge-k-sorted-lists/) (Hard)
@@ -40,9 +42,13 @@
 
 153: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medium)
 
+191: [https://leetcode.com/problems/number-of-1-bits/](https://leetcode.com/problems/number-of-1-bits/) ()
+
 238: [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium)
 
 271: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (Easy)
+
+371: [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) (Easy)
 
 687: [Longest Univalue Path](https://leetcode.com/problems/longest-univalue-path/) (Easy)
 
