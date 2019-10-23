@@ -20,6 +20,8 @@
 
 66: [Plus One](https://leetcode.com/problems/plus-one/) (Easy)
 
+70: [Climbing Stairs](https://leetcode.com/problems/climbing-stairs/) (Easy)
+
 112: [Path Sum](https://leetcode.com/problems/path-sum) (Easy)
 
 113: [Path Sum II](https://leetcode.com/problems/path-sum-ii) (Medium)
@@ -36,17 +38,21 @@
 
 151: [Reverse Words in a String](https://leetcode.com/problems/reverse-words-in-a-string/) (Medium)
 
-151: [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) (Medium)
-
 152: [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/) (Medium)
 
 153: [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/) (Medium)
 
-191: [https://leetcode.com/problems/number-of-1-bits/](https://leetcode.com/problems/number-of-1-bits/) ()
+190: [Reverse Bits](https://leetcode.com/problems/reverse-bits/) (Easy)
+
+191: [https://leetcode.com/problems/number-of-1-bits/](https://leetcode.com/problems/number-of-1-bits/) (Easy)
 
 238: [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) (Medium)
 
+268: [Missing Number](https://leetcode.com/problems/missing-number/) (Easy)
+
 271: [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) (Easy)
+
+338: [Counting Bits](https://leetcode.com/problems/counting-bits/) (Medium)
 
 371: [Sum of Two Integers](https://leetcode.com/problems/sum-of-two-integers/) (Easy)
 
